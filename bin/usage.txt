@@ -1,0 +1,10 @@
+gitlint - eslint for git commit messages
+
+  usage: gitlint [options] <sha>
+
+  options:
+    -h, --help                    show help and usage
+    -v, --version                 show version
+    -c, --config <file>           specify config file (falls back to package.json)
+    -j, --json                    use the json formatter
+    -s, --silent                  just specify exit code

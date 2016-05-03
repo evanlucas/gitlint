@@ -1,0 +1,31 @@
+{
+  "name": "gitlint",
+  "version": "1.0.0",
+  "description": "eslint for git commit messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js --cov"
+  },
+  "dependencies": {
+    "gitlint-parser-base": "~1.0.0",
+    "help": "~3.0.1",
+    "nopt": "~3.0.6"
+  },
+  "devDependencies": {
+    "lintit": "~1.0.1",
+    "tap": "~5.7.1"
+  },
+  "license": "MIT",
+  "bin": {
+    "gitlint": "./bin/cmd.js"
+  },
+  "author": "Evan Lucas <evanlucas@me.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanlucas/gitlint"
+  },
+  "homepage": "https://github.com/evanlucas/gitlint",
+  "bugs": {
+    "url": "https://github.com/evanlucas/gitlint/issues"
+  }
+}
